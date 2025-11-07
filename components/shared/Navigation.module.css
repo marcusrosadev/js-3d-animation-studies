@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.nav a {
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.nav a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.nav a.active {
+  background: rgba(255, 255, 255, 0.3);
+  font-weight: 600;
+}
+

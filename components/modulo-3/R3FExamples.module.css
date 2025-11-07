@@ -1,0 +1,98 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.section {
+  margin-bottom: 3rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #667eea;
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  background: #f0f0f0;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+.button:hover {
+  background: #e0e0e0;
+  border-color: #667eea;
+}
+
+.activeButton {
+  padding: 0.75rem 1.5rem;
+  background: #667eea;
+  color: white;
+  border: 2px solid #667eea;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+.activeButton:hover {
+  background: #5568d3;
+}
+
+.canvasContainer {
+  width: 100%;
+  height: 500px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #000;
+  margin-bottom: 2rem;
+}
+
+.description {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.description h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.description p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.instructions {
+  list-style: none;
+  padding: 0;
+}
+
+.instructions li {
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  background: #f8f9fa;
+  border-left: 4px solid #667eea;
+  border-radius: 4px;
+  color: #333;
+}
+

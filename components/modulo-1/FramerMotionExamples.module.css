@@ -1,0 +1,136 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.section {
+  margin-bottom: 4rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #f5576c;
+}
+
+.examplesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  opacity: 0.9;
+  font-size: 0.9rem;
+}
+
+.interactiveCard {
+  background: white;
+  border: 2px solid #667eea;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.interactiveCard h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.interactiveCard p {
+  color: #666;
+}
+
+.variantCard {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.variantItem {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #f5576c;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.listItem {
+  background: white;
+  padding: 1rem 1.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  border-left: 4px solid #667eea;
+  transition: all 0.2s;
+}
+
+.toggleButton {
+  background: #f5576c;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background 0.2s;
+}
+
+.toggleButton:hover {
+  background: #e04a5f;
+}
+
+.revealContent {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.revealContent h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.revealContent p {
+  color: #666;
+}
+
+.layoutBox {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+.layoutBox h3 {
+  margin-bottom: 1rem;
+}
+
